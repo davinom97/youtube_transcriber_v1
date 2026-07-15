@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local runner outputs
+transcripts/
+audio/
+_work/
+*.m4a
+*.mp3
+*.opus
+*.ogg
+*.wav
+*.webm
+*.mp4
+*.mkv
+
+# Example/generated transcripts
+*.timestamped.txt
+*.metadata.json
+manifest.json
+study_math_with_me_july_5_2026*

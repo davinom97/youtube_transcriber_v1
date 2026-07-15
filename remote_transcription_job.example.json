@@ -1,0 +1,26 @@
+{
+  "name": "youtube-playlist-transcription-high",
+  "workingDirectory": ".",
+  "command": "python",
+  "args": [
+    "transcribe_social_video.py",
+    "https://www.youtube.com/playlist?list=PLAYLIST_ID",
+    "--playlist",
+    "--quality",
+    "high",
+    "--device",
+    "cuda",
+    "--output-dir",
+    "transcripts"
+  ],
+  "environment": {
+    "PYTHONUNBUFFERED": "1"
+  },
+  "expectedOutputs": [
+    "transcripts/manifest.json",
+    "transcripts/*.txt",
+    "transcripts/*.srt",
+    "transcripts/*.vtt",
+    "transcripts/*.json"
+  ]
+}
