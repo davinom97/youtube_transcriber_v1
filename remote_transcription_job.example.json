@@ -1,13 +1,13 @@
 {
-  "name": "youtube-playlist-transcription-high",
+  "name": "youtube-playlist-transcription-best",
   "workingDirectory": ".",
   "command": "python",
   "args": [
     "transcribe_social_video.py",
-    "https://www.youtube.com/playlist?list=PLAYLIST_ID",
+    "https://youtube.com/playlist?list=PL3O-wzvCVtzWg0O3q3hV-Hnge__cHVn0D&si=OA2qGX0fZ83j5thh",
     "--playlist",
     "--quality",
-    "high",
+    "best",
     "--device",
     "cuda",
     "--output-dir",

@@ -1,0 +1,14 @@
+{
+  "id": "youtube-transcriber",
+  "displayName": "Youtube Transcriber",
+  "workingDirectory": "C:\\RemoteProjectRunner\\projects\\youtube_transcriber_v1",
+  "runtime": "PYTHON_VENV",
+  "command": "python",
+  "defaultArgs": "transcribe_social_video.py \"https://youtube.com/playlist?list=PL3O-wzvCVtzWg0O3q3hV-Hnge__cHVn0D&si=OA2qGX0fZ83j5thh\" --playlist --quality best --device cuda --output-dir transcripts",
+  "envJson": {
+    "PYTHONUNBUFFERED": "1"
+  },
+  "gitRepoUrl": "https://github.com/davinom97/youtube_transcriber_v1.git",
+  "gitBranch": "main",
+  "enabled": true
+}
